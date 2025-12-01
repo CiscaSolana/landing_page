@@ -104,3 +104,25 @@ a {
 li img {
     border: 3px solid #3882F6;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    gap: 10px;
+}
+
+.main-quote {
+    font-size: 32px;
+}
+
+.second-quote {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: last baseline;
+}
+
