@@ -126,3 +126,30 @@ li img {
     align-self: last baseline;
 }
 
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    margin: 50px auto;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.title-action {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.par-action {
+    font-size: 14px;
+}
+
+.sign-button.version2 {
+    border: 2px solid white;
+}
+
+
+
