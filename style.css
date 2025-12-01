@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header1 {
@@ -149,6 +150,16 @@ li img {
 
 .sign-button.version2 {
     border: 2px solid white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    padding: 40px;
 }
 
 
