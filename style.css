@@ -80,6 +80,18 @@ a {
 
 .text-list {
     width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #767676;
+}
+
+.first ,
+.second ,
+.third , 
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .images-body {
